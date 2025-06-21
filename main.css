@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.wrapper{
+    max-width: 900px;
+    margin: 60px auto -70px auto;
+    border: 1px solid red;
+    list-style-position: inside;
+}
+
+.wrapper nav ul {
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1{
+    font-size: 32px;
+    color: rgb(76, 63, 171);
+    margin: 25px;
+}
+
+a{
+    color: deepskyblue;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    margin: 5px;
+}
+
+a:hover{
+    color: rgb(27, 168, 79);
+    font-size: 22px;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+    display: block;
+    margin: 5px;
+}
